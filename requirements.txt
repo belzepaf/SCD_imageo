@@ -6,3 +6,4 @@ python -m pip install lxml
 python -m pip install pandas
 python -m pip install html5lib
 python -m pip install scrapy
+python -m pip install xmltodict
