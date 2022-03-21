@@ -48,4 +48,5 @@
 |urllib3             |1.26.9|
 |w3lib               |1.22.0|
 |webencodings        |0.5.1|
+|xmltodict|0.12.0|
 |zope.interface      |5.4.0|
