@@ -19,32 +19,32 @@ Fichier contenant toutes les constantes nécessaires au bon fonctionnement des s
 * Des URLS
 * Clé API
 * Dictionnaires
-#### 1.save_copy_from_z.py [👉](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/1.save_copy_from_z.py)
+#### [1.save_copy_from_z.py](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/1.save_copy_from_z.py)
 Crée une copie du fichier d'état des lieux que j'ai réalisé (Z:/SCD/Pôle Services Numériques/Numérisation/Cartothèque/aubry_melanie_2022_etat_des_lieux.xlsx). Dans un souci de conservation, je préfère créer une copie du fichier original plutôt que de travailler directement dessus.
-#### 2.parsing_sudoc_xml copy.py
+#### [2.parsing_sudoc_xml_to_xlsx.py](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/2.parsing_sudoc_xml_to_xlsx.py)
 Il s'agit ici de "parser" les objets depuis leur URL Sudoc, en utilisant leur PPN.
 On récupère les tags et on extrait les données en utilisant l'arborescence du XML.
 Le résultat sort sous forme de dataframe qui est exporté.
-#### 3.build_metadata.py
+#### [3.build_metadata_xlsx_from_global_and_parse_sudoc.py](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/3.build_metadata_xlsx_from_global_and_parse_sudoc.py)
 Petit script de mise en forme des métadonnées SUDOC pour permettre l'import sur Nakala.
 * Conversion DMS to DD
 * Mise en forme
 * Export CSV/XLS
-#### 4.md_put_post_nakala.py
+#### [4.md_put_post_nakala.py](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/4.md_put_post_nakala.py)
 * Import des métadonnées sur Nakala 
 * Prise en compte des formats, des dictionnaires (voir **definitions.py**)
 * Si une donnée est déjà présente, on ne l'écrasera pas
 * Si la donnée est vide dans le fichier construit avec **3.build_metadata.py** , pas d'import.
 * Le script devrait push sur tous les handles (sélectionnés depuis le fichier créé avec **3.build_metadata.py**)
-#### 5.build_relations_xls.py
-Petit script de mise en forme d'un fichier pour upload les relations (fusion du fichier d'état des lieux (Z:/SCD/Pôle Services Numériques/Numérisation/Cartothèque/aubry_melanie_2022_etat_des_lieux.xlsx) et de celui de Philippe Laymond (dont on peut retrouver une copie dans **input**)
-#### 6.nakala_relations.py
+#### [5.build_relations_xls.py](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/5.build_relations_xls.py)
+Petit script de mise en forme d'un fichier pour upload les relations (fusion du fichier d'état des lieux (Z:/SCD/Pôle Services Numériques/Numérisation/Cartothèque/aubry_melanie_2022_etat_des_lieux.xlsx) et de celui de **Philippe Laymond** (dont on peut retrouver une copie dans **input**)
+#### [6.post_relations_nakala.py](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/6.post_relations_nakala.py)
 Push des relations sur Nakala (pour le moment, ça push dans les deux sens car cela me semblait plus logique).
-### utils
+### [utils](https://github.com/belzepaf/SCD_imageo/tree/main/scripts/utils)
 **utils** est une collection de petites fonctions Python communes aux scripts.
-### input
+### [input](https://github.com/belzepaf/SCD_imageo/tree/main/scripts/input)
 Dossier contenant les fichiers d'entrée
-### output
+### [output](https://github.com/belzepaf/SCD_imageo/tree/main/scripts/output)
 Dossier contenant les fichiers de sortie (notamment les fichiers créés avec les scripts).
 
 ---
@@ -52,4 +52,4 @@ Dossier contenant les fichiers de sortie (notamment les fichiers créés avec le
 Création d'environnement virtuel Python si nécessaire https://docs.python.org/fr/3.6/tutorial/venv.html
 
 ---
-La moindre question, n'hésitez pas à me contacter : aubry.melanie33@gmail.com
+La moindre question, n'hésitez pas à me contacter 👉 : aubry.melanie33@gmail.com
