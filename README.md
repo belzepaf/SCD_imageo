@@ -13,7 +13,7 @@ Un des objectifs est de permettre la réutilisation des scripts dans le futur, j
 ---
 ## Projet
 ### Scripts
-#### definitions.py
+#### [definitions.py](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/definitions.py)
 Fichier contenant toutes les constantes nécessaires au bon fonctionnement des scripts. 
 * Des paths
 * Des URLS
