@@ -19,7 +19,7 @@ Fichier contenant toutes les constantes nécessaires au bon fonctionnement des s
 * Des URLS
 * Clé API
 * Dictionnaires
-#### 1.save_copy_from_z.py
+#### 1.save_copy_from_z.py [👉](https://github.com/belzepaf/SCD_imageo/blob/main/scripts/1.save_copy_from_z.py)
 Crée une copie du fichier d'état des lieux que j'ai réalisé (Z:/SCD/Pôle Services Numériques/Numérisation/Cartothèque/aubry_melanie_2022_etat_des_lieux.xlsx). Dans un souci de conservation, je préfère créer une copie du fichier original plutôt que de travailler directement dessus.
 #### 2.parsing_sudoc_xml copy.py
 Il s'agit ici de "parser" les objets depuis leur URL Sudoc, en utilisant leur PPN.
