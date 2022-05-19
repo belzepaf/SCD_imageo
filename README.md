@@ -6,6 +6,8 @@ Ce répertoire Github contient tous les scripts en **Python3** réalisés lors d
 
 Un des objectifs est de permettre la réutilisation des scripts dans le futur, j'ai donc essayé de me rapprocher le plus possible d'un **"clean code"**. Je vais présenter rapidement les fichiers dans ce read.me.
 
+*Note : Si jamais ces scripts sont réutilisés, pensez à changer les constantes dans **definitions.py**!*
+
 ---
 ## Projet
 ### Scripts
