@@ -6,7 +6,9 @@ Ce répertoire Github contient tous les scripts en **Python3** (Python 3.10.2) r
 
 Un des objectifs est de permettre la réutilisation des scripts dans le futur, j'ai donc essayé de me rapprocher le plus possible d'un [**"clean code"**](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) en utilisant également le moins de librairies possibles et pérennes (voir requirements.txt). Je vais présenter rapidement les fichiers dans ce read.me. Tout a été testé et fonctionne sous https://test.nakala.fr/.
 
-*Note : Si jamais ces scripts sont réutilisés, pensez à changer les constantes dans **definitions.py**, notamment pour l'url de l'API (uploadé API test ici) ainsi que pour la clé!*
+*Note : Si jamais ces scripts sont réutilisés pour upload sur Nakala (et non Nakala Test), pensez à changer :*
+* *les constantes dans **definitions.py**, notamment pour l'url et la clé d'API (uploadé API test ici)*
+* *les chemins des fichiers /output dans **4.md_put_post_nakala.py** et **6.nakala_relations.py**: de base, ce sont les fichiers de test. Il y a #en commentaire les fichiers finaux*
 
 ---
 ## Projet
@@ -28,7 +30,7 @@ Petit script de mise en forme des métadonnées SUDOC pour permettre l'import su
 * Conversion DMS to DD
 * Mise en forme
 * Export CSV/XLS
-#### 4.md_put_post_nakala_boris.py
+#### 4.md_put_post_nakala.py
 * Import des métadonnées sur Nakala 
 * Prise en compte des formats, des dictionnaires (voir **definitions.py**)
 * Si une donnée est déjà présente, on ne l'écrasera pas
