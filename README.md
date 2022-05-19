@@ -4,7 +4,7 @@ Répertoire destiné au projet d'organisation et de fairisation des données dan
 ## Introduction
 Ce répertoire Github contient tous les scripts en **Python3** (Python 3.10.2) réalisés lors de ma mission de mars à mai (2022). Il s'agit dans le cadre du projet ImaGEO, de pouvoir récupérer les métadonnées du Sudoc pour ensuite les upload dans Nakala.
 
-Un des objectifs est de permettre la réutilisation des scripts dans le futur, j'ai donc essayé de me rapprocher le plus possible d'un **"clean code"** en utilisant également le moins de librairies possibles et pérennes (voir requirements.txt). Je vais présenter rapidement les fichiers dans ce read.me. Tout a été testé et fonctionne sous https://test.nakala.fr/.
+Un des objectifs est de permettre la réutilisation des scripts dans le futur, j'ai donc essayé de me rapprocher le plus possible d'un [**"clean code"**](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) en utilisant également le moins de librairies possibles et pérennes (voir requirements.txt). Je vais présenter rapidement les fichiers dans ce read.me. Tout a été testé et fonctionne sous https://test.nakala.fr/.
 
 *Note : Si jamais ces scripts sont réutilisés, pensez à changer les constantes dans **definitions.py**, notamment pour l'url de l'API (uploadé API test ici) ainsi que pour la clé!*
 
