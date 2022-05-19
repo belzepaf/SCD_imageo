@@ -46,4 +46,4 @@ Dossier contenant les fichiers de sortie (notamment les fichiers créés avec le
 ---
 Création d'environnement virtuel Python si nécessaire https://docs.python.org/fr/3.6/tutorial/venv.html
 ---
-Si vous avez la moindre question, n'hésitez pas à me contacter : aubry.melanie33@gmail.com
+La moindre question, n'hésitez pas à me contacter : aubry.melanie33@gmail.com
